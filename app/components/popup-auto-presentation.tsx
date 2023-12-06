@@ -17,7 +17,7 @@ const PopupAutoPresentation = ({ open, setOpen }: Props) => {
       <AnimatePresence>
         {open && (
           <MyDialog key="dialog">
-            <div className={cn(` p-4`, openSans.className)}>
+            <div className={cn(` p-4 md:p-8`, openSans.className)}>
               <div
                 onClick={() => {
                   setOpen(false);

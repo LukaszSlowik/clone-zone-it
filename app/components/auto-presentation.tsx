@@ -10,7 +10,7 @@ const openSans = Open_Sans({ subsets: ["latin"], display: "block" });
 const AutoPresentation = (props: Props) => {
   return (
     <>
-      <div className={cn(`min-w-[270px] p-2`, openSans.className)}>
+      <div className={cn(`min-w-[270px] p-2 md:p-8`, openSans.className)}>
         <div className="flex flex-col items-center justify-center ">
           <div>
             <Avatar.Root className="relative flex h-20 w-20 shrink-0 overflow-hidden rounded-full ">
