@@ -1,9 +1,6 @@
-import Image from "next/image";
 import Hero from "../components/hero";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
-import Testforbutton from "../components/testforbutton";
-import InView from "../components/in-view";
 import InViewComp from "../components/in-view";
 import { Open_Sans } from "next/font/google";
 import Offers from "../components/offers";
@@ -11,7 +8,7 @@ import CooperationModels from "../components/cooperation-models";
 import ZoneitInNumbers from "../components/zoneit-in-numbers";
 import OpenPopupWrapper from "../components/open-popup-wrapper";
 import { getDictionary } from "@/lib/dictionary";
-import { type } from "os";
+
 import { Locale } from "@/i18n.config";
 
 const openSans = Open_Sans({ subsets: ["latin"], display: "block" });
@@ -21,7 +18,6 @@ type Props = {
 };
 export default async function Home({ params }: Props) {
   const dictionary = await getDictionary(params.lang);
-  //
   return (
     <main>
       <InViewComp activeLink="">

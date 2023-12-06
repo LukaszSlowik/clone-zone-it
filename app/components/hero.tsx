@@ -15,8 +15,6 @@ type Props = {
 };
 
 const Hero = ({ dictionary, lang }: Props) => {
-  //const dictionary = useDictionary();
-
   const particlesInit = useCallback(async (engine: Engine) => {
     console.log(engine);
 
@@ -39,7 +37,7 @@ const Hero = ({ dictionary, lang }: Props) => {
       <div className="relative flex h-[calc(100vh-5rem)] flex-col items-center  justify-evenly border bg-[url('/images/home2.jpg')] bg-cover bg-center bg-no-repeat pt-20">
         <h1
           className={cn(
-            "font z-20 text-center text-4xl uppercase leading-[87px] text-[#ff0000] lg:text-7xl",
+            " z-20 text-center text-3xl uppercase text-[#ff0000]  sm:text-4xl lg:text-7xl",
           )}
         >
           Because it is never just a businnes
