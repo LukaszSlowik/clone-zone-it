@@ -65,9 +65,7 @@ const Counter = ({ font, dictionary }: Props) => {
     startOnMount: false,
   });
   useEffect(() => {
-    console.log("effect mounted");
     const timeoutId = setTimeout(() => {
-      console.log("visible:", isVisible);
       if (isVisible && !hasStarted) {
         Promise.all([start1(), start2(), start3(), start4(), start5()]);
         setHasStarted(true);

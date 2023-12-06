@@ -22,10 +22,6 @@ const NavbarNoSRR = ({ className, links }: Props) => {
   useEffect(() => {
     if (!activeLink)
       actions.setActiveLink(window.location.pathname + window.location.hash);
-    console.log(
-      "path + hash:",
-      window.location.pathname + window.location.hash,
-    );
   }, [actions, activeLink]);
 
   if (!activeLink) return null;
@@ -63,11 +59,8 @@ const NavbarNoSRR = ({ className, links }: Props) => {
           >
             {links.map(({ href, label }) => (
               <li
-                // layout
-                // layoutId="navbar"
                 key={`${href}${label}`}
                 onClick={() => {
-                  //setActiveLink(href);
                   actions.setActiveLink(href);
                   setMobileMenu(false);
                 }}

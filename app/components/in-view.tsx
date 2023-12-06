@@ -26,14 +26,14 @@ const InViewComp = ({ activeLink, children }: Props) => {
   useEffect(() => {
     if (isVisible) {
       const timeoutId = setTimeout(() => {
-        console.log("visible:", activeLink);
+        //console.log("visible:", activeLink);
         const first = activeLinkFromStore.split("#")[0];
         let newLink = `${first}#${activeLink}`;
         if (activeLink.length === 0) {
           newLink = `${first}`;
         }
 
-        console.log("newLink:", newLink);
+        //console.log("newLink:", newLink);
         actions.setActiveLink(newLink);
       }, 300); // 2000 milliseconds = 2 seconds
 

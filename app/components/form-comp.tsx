@@ -43,7 +43,6 @@ const FormComp = ({ openSans, teko, dictionary, lang }: Props) => {
   });
   const onSubmit = (data: FormValues) => {
     setOpen(true);
-    console.log(data);
   };
   if (!client) return;
   return (

@@ -14,13 +14,9 @@ const Navbar = ({ className, links }: Props) => {
 
   const [activeLink, setActiveLink] = React.useState("any");
   const actions = useSetActiveLinkActions();
-  console.log("activeLink:", activeLink);
-  console.log("href:", links);
 
   useEffect(() => {
     if (activeLink === "any") {
-      console.log("hash:", window.location.hash);
-      console.log("pathname:", pathname);
       if (window.location.hash.length === 0) {
         setActiveLink(pathname);
         actions.setActiveLink(pathname);

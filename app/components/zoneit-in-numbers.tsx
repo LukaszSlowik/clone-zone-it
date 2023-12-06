@@ -33,7 +33,7 @@ const ZoneitInNumbers = ({ dictionary }: Props) => {
           width={500}
           height={300}
           alt="zoneit in numbers"
-          className="col-span-2  max-md:hidden "
+          className="col-span-2  h-full w-full max-md:hidden"
         />
         <Counter font={teko} dictionary={dictionary} />
       </div>

@@ -49,7 +49,13 @@ const SocialList = ({ socialArray = list, className }: Props) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image src={item.icon} alt={item.name} width={24} height={24} />
+            <Image
+              src={item.icon}
+              alt={item.name}
+              width={24}
+              height={24}
+              className="h-full w-full"
+            />
           </a>
         </li>
       ))}

@@ -36,7 +36,6 @@ const Header = async ({ className, params }: Props) => {
 
   const fullUrl = headersList.get("referer") || "";
 
-  console.log(fullUrl);
   return (
     <header className="fixed inset-0  z-[999] h-20  bg-white  shadow-md">
       <div className="flex h-full   items-center justify-between  px-[2.5%] sm:mx-auto">
