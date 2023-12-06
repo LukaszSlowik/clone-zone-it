@@ -1,0 +1,59 @@
+{
+    "navigation": {
+        "home": "Home",
+        "about-us": "Über uns",
+        "services": "IT service",
+        "carrier": "Jobs",
+        "contact": "Kontakt"
+    },
+    "about-us": {
+        "title": "WIR LIEFERN IHNEN HOCHWERTIGE IT-SERVICES, DIE IHRE GESCHÄFTSVORHABEN OPTIMAL UNTERSTÜTZEN"
+    },
+    "services": {
+        "it-title": "IT SERVICES",
+        "it-description": "Zone IT bietet einen breiten IT-Service an mit Berücksichtigung der individuellen Bedürfnisse der Kunden. Wir legen großen Wert auf die hohe Qualität unserer IT-Systeme.",
+        "solution-title": "UNSERE LÖSUNGEN",
+        "solution-description": "Siehe ausgewählte Beispiele unserer fertiggestellten Projekte. Jedes davon brachte einen einmaligen, zusätzlichen Wert in die Geschäftsfeldentwicklung unseres Partners mit.",
+        "recruitment-title": "RECRUITMENT PROCESS OUTSOURCING",
+        "recruitment-description": "Unsere Recruiter führen Rekrutierungsprozesse durch und unterstützen damit unsere Geschäftspartner in der D-A-CH-Region (Deutschland, Österreich, Schweiz). Unsere Rekrutierungsprozesse sind professionell und werden immer auf die jeweiligen Kundenbedürfnisse zugeschnitten. Als Endeffekt stellen wir in kurzer Zeit passgenaue Kandidaten zur Verfügung."
+    },
+    "jobs": {
+        "title": "WIE BEWIRBT MAN SICH?",
+        "description": "Es ist einfach. Es reicht, ein kurzes Formular auszufüllen und unsere Personalabteilung nimmt mit Ihnen Kontakt auf.",
+        "fill-form": "Kontaktformular",
+        "delivery-models-title": "DIENSTLEISTUNGSMODELLE",
+        "delivery-models-description": "Wir bieten unseren Kunden Onsite, Nearshore und Offshore Dienstleistungsmodelle an, je nach Art des Projektes und entsprechend den Präferenzen der Kunden.",
+        "onsite": "Onsite",
+        "onsite-description": "Die Gesamtheit der Arbeiten - Entwurf/ Entwicklung wird von unseren Beratern vor Ort beim Kunden durchgeführt.",
+        "nearshore": "Nearshore",
+        "nearshore-description": "Alle Tätigkeiten werden von unserem Team in unserem Kompetenzzentrum Wroclaw/ Polen durchgeführt.",
+        "offshore": "Offshore",
+        "offshore-description": "Alle Tätigkeiten werden von unserem Team in unserem Kompetenzzentrum Wroclaw/ Polen durchgeführt."
+    },
+    "numbers": {
+        "years-of-experience": "+ JAHRE ERFAHRUNG",
+        "years-company": "JAHRE ZONE IT !",
+        "projects": "PROJEKTE",
+        "specialists": "SPECIALISTEN",
+        "reliablilty": "% SICHERHEIT"
+    },
+    "form": {
+        "name": "Name",
+        "email": "E-mail",
+        "phone": "Telefonnummer (optional)",
+        "message": "Nachricht",
+        "send": "Senden",
+        "errors": {
+            "name": "Bitte geben Sie Ihren Namen ein",
+            "email": "Bitte geben Sie Ihre E-Mail-Adresse ein",
+            "message": "Bitte geben Sie Ihre Nachricht ein"
+        }
+    },
+    "read-more": "mehr",
+    "our-office": "UNSER BÜRO",
+    "follow-us": "BESUCHEN SIE UNS AUF:",
+    "contact-us": "KONTAKT",
+    "contact-with-us": "SCHICK UNS EINE NACHRICHT",
+    "office": "Office",
+    "zone-it-in-numbers": "Zone IT"
+}

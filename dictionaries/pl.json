@@ -1,0 +1,59 @@
+{
+    "navigation": {
+        "home": "Strona główna",
+        "about-us": "Firma",
+        "services": "Obszary działania",
+        "carrier": "Kariera",
+        "contact": "Kontakt"
+    },
+    "about-us": {
+        "title": "DOSTARCZAMY NAJWYŻSZEJ JAKOŚCI ROZWIĄZANIA IT WSPIERAJĄCE ROZWÓJ BIZNESU"
+    },
+    "services": {
+        "it-title": "USŁUGI IT",
+        "it-description": "Tworzymy oprogramowanie szyte na miarę. Zapewniamy kompleksowe wsparcie informatyczne pomagające usprawnić biznes, zwiększyć jego wydajność, innowacyjność oraz bezpieczeństwo. Dostarczamy usługi i produkty najwyższej jakości.",
+        "solution-title": "NASZE ROZWIĄZANIA",
+        "solution-description": "Wdrażamy technologię informatyczną precyzyjnie dopasowaną do realnych potrzeb. Zobacz wybrane przykłady zrealizowanych przez nas projektów. Każdy wniósł unikalną, dodatkową wartość w biznesowy rozwój naszego partnera.",
+        "recruitment-title": "OUTSOURCING PROCESÓW REKRUTACYJNYCH",
+        "recruitment-description": "Nasi specjaliści wspierają projekty rekrutacyjne naszych Partnerów. Uzupełniamy procesy na każdym ich etapie. Pomagamy klientom nie posiadającym swoich działów rekrutacji. Dysponujemy szerokim gronem specjalistów IT."
+    },
+    "jobs": {
+        "title": "JAK APLIKOWAĆ?",
+        "description": "To proste. Wystarczy wypełnić krótki formularz a nasz dział HR skontaktuje się z Tobą.",
+        "fill-form": "Wypełnij formularz",
+        "delivery-models-title": "PROPONUJEMY MODELE WSPÓŁPRACY",
+        "delivery-models-description": "Oferujemy elastyczne formy współpracy, a do najczęściej stosowanych należą:",
+        "onsite": "KONTRAKT",
+        "onsite-description": "All the design/development activities are performed by our consultants at the Client's site.",
+        "nearshore": "Etat",
+        "nearshore-description": "Współpraca w oparciu o Umowę o pracę. Stałe wynagrodzenie oraz urlop wypoczynkowy.",
+        "offshore": "INNE UMOWY",
+        "offshore-description": "Współpraca w oparciu o Umowę zlecenie lub Umowę o dzieło. Rozliczenie za wykonanie zlecenia lub dzieła."
+    },
+    "numbers": {
+        "years-of-experience": "+ LAT DOŚWIADCZENIA",
+        "years-company": "LAT ZONE IT !",
+        "projects": "PROJEKTÓW",
+        "specialists": "SPECJALISTÓW",
+        "reliablilty": "% RZETELNOŚCI"
+    },
+    "form": {
+        "name": "imię i nazwisko",
+        "email": "E-mail",
+        "phone": "Telefon (optionalnie)",
+        "message": "wiadomość",
+        "send": "wyslij",
+        "errors": {
+            "name": "Proszę podać imię i nazwisko",
+            "email": "Proszę podać adres e-mail",
+            "message": "Proszę wpisać wiadomość"
+        }
+    },
+    "read-more": "Czytaj więcej",
+    "our-office": "Nasze biuro",
+    "follow-us": "ŚLEDŹ NAS:",
+    "contact-us": "skontaktuj się",
+    "contact-with-us": "skontaktuj się z nami",
+    "office": "Biuro",
+    "zone-it-in-numbers": "Zone IT w liczbach"
+}

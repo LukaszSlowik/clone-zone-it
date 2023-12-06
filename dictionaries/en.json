@@ -1,0 +1,59 @@
+{
+    "navigation": {
+        "home": "Home",
+        "about-us": "About Us",
+        "services": "Services",
+        "carrier": "Job Board",
+        "contact": "Contact"
+    },
+    "about-us": {
+        "title": "WE DESIGN, BUILD AND IMPLEMENT EFFECTIVE TECHNOLOGY SOLUTIONS"
+    },
+    "services": {
+        "it-title": "IT SERVICES",
+        "it-description": "We create bespoke software, implement information technology precisely suited to the real needs of our Customers. We care about the quality of the developed systems.",
+        "solution-title": "OUR SOLUTIONS",
+        "solution-description": "We deliver proper IT solutions. Explore some of the project examples executed by us. Each has provided unique, added value towards business development of our Partner.",
+        "recruitment-title": "RECRUITMENT PROCESS OUTSOURCING",
+        "recruitment-description": "Our recruiters support partners in DACH Region ( Germany, Austria, Switzerland ). Our recruitment processes are customized, unique and professional. As a result we give a successful matching between Client requirements and Candidates’ skills."
+    },
+    "jobs": {
+        "title": "HOW TO APPLY?",
+        "description": "It’s easy. Just fill in the short form and our HR Department will contact you.",
+        "fill-form": "Fill in the form",
+        "delivery-models-title": "Delivery Models",
+        "delivery-models-description": "We offer Onsite, Nearshore and Offshore delivery models depending on the nature of the project and Client’s preferences.",
+        "onsite": "Onsite",
+        "onsite-description": "All the design/development activities are performed by our consultants at the Client's site.",
+        "nearshore": "Nearshore",
+        "nearshore-description": "All activities are performed by our staff in our delivery center in Poland.",
+        "offshore": "Offshore",
+        "offshore-description": "All activities are performed by our staff in our center, which is located in Poland"
+    },
+    "numbers": {
+        "years-of-experience": "+ Years of experience",
+        "years-company": "YEARS OF ZONE IT !",
+        "projects": "Projects",
+        "specialists": "Specialists",
+        "reliablilty": "% Reliability"
+    },
+    "form": {
+        "name": "Full name",
+        "email": "E-mail",
+        "phone": "Phone (optional)",
+        "message": "Message",
+        "send": "Send",
+        "errors": {
+            "name": "Please enter your name",
+            "email": "Please enter your email",
+            "message": "Please enter your message"
+        }
+    },
+    "read-more": "Read More",
+    "our-office": "Our Office",
+    "follow-us": "Follow Us:",
+    "contact-us": "Contact Us",
+    "contact-with-us": "Contact with us",
+    "office": "Office",
+    "zone-it-in-numbers": "Zone IT"
+}
