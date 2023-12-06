@@ -11,16 +11,11 @@ type Props = {
 
 const Navbar = ({ className, links }: Props) => {
   const pathname = usePathname();
-  const [hydrated, setHydrated] = React.useState(false);
+
   const [activeLink, setActiveLink] = React.useState("any");
   const actions = useSetActiveLinkActions();
   console.log("activeLink:", activeLink);
   console.log("href:", links);
-
-  //   useEffect(() => {
-  //     if (!hydrated) return;
-  //     setHydrated(true);
-  //   }, [hydrated]);
 
   useEffect(() => {
     if (activeLink === "any") {

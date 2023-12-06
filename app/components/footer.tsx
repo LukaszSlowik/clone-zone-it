@@ -1,7 +1,5 @@
 import { cn } from "@/lib/utils";
 import { Open_Sans, Teko } from "next/font/google";
-import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 import SocialList from "./social-list";
 import { DictionaryType } from "@/lib/dictionary";

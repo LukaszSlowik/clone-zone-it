@@ -1,8 +1,8 @@
 "use client";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
-import React, { useEffect, useLayoutEffect } from "react";
-import { useParams, usePathname } from "next/navigation";
+import React, { useEffect } from "react";
+
 import { AnimatePresence, motion } from "framer-motion";
 import {
   useActiveLink,
@@ -14,13 +14,8 @@ type Props = {
 };
 
 const NavbarNoSRR = ({ className, links }: Props) => {
-  const pathname = usePathname();
   const [mobileMenu, setMobileMenu] = React.useState(false);
-  //const [hydrated, setHydrated] = React.useState(false);
-  //const [activeLink, setActiveLink] = React.useState(
-  //  window.location.hash.length === 0 ? pathname : window.location.hash,
-  // );
-  // const [hash, setHash] = React.useState(window.location.hash);
+
   const actions = useSetActiveLinkActions();
   const activeLink = useActiveLink();
 
@@ -31,14 +26,7 @@ const NavbarNoSRR = ({ className, links }: Props) => {
       "path + hash:",
       window.location.pathname + window.location.hash,
     );
-    // }, [activeLink, pathname, actions]);
-
-    //   actions.setActiveLink(window.location.pathname + window.location.hash)
   }, [actions, activeLink]);
-
-  // console.log("activeLink:", activeLink);
-  // console.log("href:", links);
-  // console.log("the same ? :", activeLink === "/de/#services");
 
   if (!activeLink) return null;
   return (
@@ -46,11 +34,8 @@ const NavbarNoSRR = ({ className, links }: Props) => {
       <ul className={cn(`flex h-full gap-6  max-lg:hidden`, className)}>
         {links.map(({ href, label }) => (
           <li
-            // layout
-            // layoutId="navbar"
             key={`${href}${label}`}
             onClick={() => {
-              //setActiveLink(href);
               actions.setActiveLink(href);
             }}
             className={cn(

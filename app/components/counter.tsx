@@ -2,7 +2,7 @@
 import { DictionaryType } from "@/lib/dictionary";
 import { cn } from "@/lib/utils";
 import React, { useEffect, useRef, useState } from "react";
-import CountUp from "react-countup";
+
 import { useCountUp } from "react-countup";
 import { useIntersectionObserver } from "usehooks-ts";
 type Props = {

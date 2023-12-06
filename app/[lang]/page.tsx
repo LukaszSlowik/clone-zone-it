@@ -28,8 +28,6 @@ export default async function Home({ params }: Props) {
           <div className="flex flex-col items-center justify-center gap-12 py-20 text-4xl">
             <h1 className="max-w-[850px]  p-4  text-center text-5xl sm:px-20">
               {`${dictionary["about-us"].title}`}
-              {/* {DOSTARCZAMY NAJWYŻSZEJ JAKOŚCI ROZWIĄZANIA IT WSPIERAJĄCE ROZWÓJ
-              BIZNESU} */}
             </h1>
             <OpenPopupWrapper>
               <button

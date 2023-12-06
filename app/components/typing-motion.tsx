@@ -45,20 +45,6 @@ const TypingMotion = (props: Props) => {
         </a>
       </div>
     </div>
-    // <div className="px-2 py-2 text-2xl">
-    //   <h1 className="   text-left ">Hey I'm Lukasz</h1>
-    //   <div className=" relative h-auto  w-fit ">
-    //     <span className="ml-[-30px] text-left">I like {"     "} </span>
-    //     <div className="absolute bottom-0 left-[110%] w-full min-w-[400px]">
-    //       {" "}
-    //       <span className="text-bold w-full text-blue-400">
-    //         {"  "}
-    //         {text}
-    //       </span>
-    //       <span className="animate-blink   text-4xl text-blue-400">|</span>
-    //     </div>
-    //   </div>
-    // </div>
   );
 };
 

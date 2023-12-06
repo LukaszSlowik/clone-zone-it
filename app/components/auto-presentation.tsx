@@ -75,24 +75,6 @@ const AutoPresentation = (props: Props) => {
               </a>{" "}
             </p>
           </div>
-
-          {/* <ul className={cn(`flex  px-4`)}>
-        <li className="p-1 transition-colors duration-700 hover:opacity-70">
-        <a
-        href="https://www.linkedin.com/in/%C5%82ukasz-s%C5%82owik-05629b175/"
-        title="linkedin"
-        target="_blank"
-        rel="noopener noreferrer"
-        >
-        <Image
-        src="/images/icon-soc-in.png"
-        alt="linkedin"
-        width={24}
-        height={24}
-        />
-        </a>
-        </li>
-    </ul> */}
         </div>
       </div>
     </>

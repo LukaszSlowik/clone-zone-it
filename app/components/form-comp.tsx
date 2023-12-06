@@ -11,7 +11,6 @@ import { MyDialog } from "./my-dialog";
 import AutoPresentation from "./auto-presentation";
 import { getSchema } from "@/validation";
 import { Locale } from "@/i18n.config";
-//import { FormValues, schema } from "@/validation";
 
 type Props = {
   openSans?: any;
@@ -166,14 +165,13 @@ const FormComp = ({ openSans, teko, dictionary, lang }: Props) => {
           >
             <button
               type="submit"
-              className="bg-red-500 px-4 py-2 uppercase text-white hover:opacity-70"
+              className="min-w-[120px] bg-red-500 px-4 py-2 uppercase text-white hover:opacity-70"
             >
               {`${dictionary.form["send"]}`}
             </button>
           </div>
         </form>
       </div>
-      {/* <GoogleMapComp /> */}
     </div>
   );
 };

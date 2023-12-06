@@ -1,12 +1,6 @@
 "use client";
 import React, { useMemo } from "react";
-import {
-  useLoadScript,
-  useJsApiLoader,
-  GoogleMap,
-  LoadScript,
-  Marker,
-} from "@react-google-maps/api";
+import { useJsApiLoader, GoogleMap, Marker } from "@react-google-maps/api";
 
 type Props = {};
 
