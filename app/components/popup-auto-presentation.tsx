@@ -17,29 +17,29 @@ const PopupAutoPresentation = ({ open, setOpen }: Props) => {
       <AnimatePresence>
         {open && (
           <MyDialog key="dialog">
-            <div
-              onClick={() => {
-                setOpen(false);
-              }}
-              className="fixed right-2 top-2 cursor-pointer hover:opacity-60"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="lucide lucide-x"
+            <div className={cn(` p-4`, openSans.className)}>
+              <div
+                onClick={() => {
+                  setOpen(false);
+                }}
+                className="fixed right-2 top-2 cursor-pointer  hover:opacity-60"
               >
-                <path d="M18 6 6 18" />
-                <path d="m6 6 12 12" />
-              </svg>
-            </div>
-            <div className={cn(`min-w-[300px] p-4`, openSans.className)}>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="lucide lucide-x"
+                >
+                  <path d="M18 6 6 18" />
+                  <path d="m6 6 12 12" />
+                </svg>
+              </div>
               <AutoPresentation />
             </div>
           </MyDialog>

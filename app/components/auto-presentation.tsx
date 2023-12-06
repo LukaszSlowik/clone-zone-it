@@ -10,7 +10,7 @@ const openSans = Open_Sans({ subsets: ["latin"], display: "block" });
 const AutoPresentation = (props: Props) => {
   return (
     <>
-      <div className={cn(`min-w-[300px] p-4`, openSans.className)}>
+      <div className={cn(`min-w-[270px] p-2`, openSans.className)}>
         <div className="flex flex-col items-center justify-center ">
           <div>
             <Avatar.Root className="relative flex h-20 w-20 shrink-0 overflow-hidden rounded-full ">
@@ -28,7 +28,7 @@ const AutoPresentation = (props: Props) => {
             </Avatar.Root>
           </div>
           <TypingMotion />
-          <div className="flex  items-center gap-2 py-4">
+          <div className="flex  items-center gap-1 py-4">
             <p>You can contact me via : </p>
             <a
               href="https://www.linkedin.com/in/%C5%82ukasz-s%C5%82owik-05629b175/"
@@ -44,8 +44,8 @@ const AutoPresentation = (props: Props) => {
               />
             </a>
           </div>
-          <div className="flex  items-center gap-2">
-            <p>Check out my projects : </p>
+          <div className="flex  items-center gap-1">
+            <p>Check my projects : </p>
             <a
               href="https://www.linkedin.com/in/%C5%82ukasz-s%C5%82owik-05629b175/"
               title="github"

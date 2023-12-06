@@ -27,7 +27,7 @@ const Page = async ({ params }: Props) => {
       />
 
       <div className=" mx-auto w-fit  max-w-3xl px-4 pb-16 text-5xl uppercase md:mx-0 md:px-32">
-        <h1 className="py-4">{`${dictionary["contact-with-us"]}`}</h1>
+        <h1 className="py-4 max-sm:text-center">{`${dictionary["contact-with-us"]}`}</h1>
         <div className=" grid  grid-cols-1 gap-8  text-3xl md:grid-cols-2">
           <div className="">
             <p className="text-red-600 max-sm:text-center">{`${dictionary.office}`}</p>

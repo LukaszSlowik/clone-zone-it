@@ -18,7 +18,7 @@ const TypingMotion = (props: Props) => {
   const text = useTypingMotion({ arrayOfText: phases });
 
   return (
-    <div className="w-full px-2 py-2 text-2xl">
+    <div className="w-full px-0 py-2 text-2xl">
       <h1 className="  w-full text-center ">Hey I'm Lukasz</h1>
       <div className="  flex h-auto flex-col  text-xl ">
         <p className="text-center ">
@@ -32,8 +32,8 @@ const TypingMotion = (props: Props) => {
 
         <div className=""> </div>
       </div>
-      <h1 className="pt-4 text-base">
-        I created this page based on{" "}
+      <div className="flex flex-col items-center justify-center text-base">
+        <h1 className=" pt-4 ">I created this page based on: </h1>
         <a
           className="cursor-pointer text-blue-600  underline"
           href="https://zoneit.pl/"
@@ -43,7 +43,7 @@ const TypingMotion = (props: Props) => {
         >
           zoneit.pl
         </a>
-      </h1>
+      </div>
     </div>
     // <div className="px-2 py-2 text-2xl">
     //   <h1 className="   text-left ">Hey I'm Lukasz</h1>

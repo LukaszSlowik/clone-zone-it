@@ -32,7 +32,7 @@ export default async function RootLayout({
   const dictionary = await getDictionary(params.lang);
 
   return (
-    <html lang={params.lang} className="scroll-smooth">
+    <html lang={params.lang} className="overflow-x-hidden scroll-smooth">
       {/* <GoogleMapsProvider> */}
       <body
         className={cn(

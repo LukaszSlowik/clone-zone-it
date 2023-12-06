@@ -11,7 +11,7 @@ const CooperationModels = ({ dictionary }: Props) => {
   return (
     <div className="flex flex-col items-center justify-center gap-12 px-4 py-16 text-4xl">
       <div className="pb-16 sm:px-20">
-        <h1 className="mx-auto  max-w-[850px]  text-center text-5xl ">
+        <h1 className="mx-auto  max-w-[850px]  text-center text-4xl ">
           {`${dictionary.jobs["delivery-models-title"]}`}
         </h1>
         <h2 className={cn(`text-xl opacity-50`, openSans.className)}>

@@ -55,7 +55,7 @@ export function MyDialog({ children }: { children: ReactNode }) {
       />
       <Dialog.Content
         ref={content}
-        className="fixed left-1/2 top-1/2 z-[999] -translate-x-1/2 -translate-y-1/2 rounded-md bg-neutral-100  p-8 text-xl shadow"
+        className="fixed left-1/2 top-1/2 z-[999] -translate-x-1/2 -translate-y-1/2 rounded-md bg-neutral-100   text-xl shadow"
       >
         {children}
       </Dialog.Content>
